@@ -1,23 +1,25 @@
-
-
+<!-- Add the following <META> element to your page <HEAD>. -->
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="styles.css">
 
+<!-- Add the following <FORM> element to your page. -->
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D06000001cBuN" method="POST">
 
+<input type="hidden" name="oid" value="00D06000001cBuN">
+<input type="hidden" name="retURL" value="https://emirmalikov.github.io/GetforceWEBtoCase/thankyou.html">
 
-<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00D06000001cBuN" method="POST">
+<!-- Optional debugging elements (uncomment if needed) -->
+<!-- <input type="hidden" name="debug" value="1"> -->
+<!-- <input type="hidden" name="debugEmail" value="vapekg1@gmail.com"> -->
 
-<input type=hidden name="orgid" value="00D06000001cBuN">
-<input type=hidden name="retURL" value="https://emirmalikov.github.io/GetforceWEBtoCase/thankyou.html">
+<label for="first_name">Contact Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
+<label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+<label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label for="phone">Phone</label><input id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-
-<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+<label for="subject">Subject</label><input id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
 
 <label for="description">Description</label><textarea name="description"></textarea><br>
 
